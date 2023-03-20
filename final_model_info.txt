@@ -1,0 +1,68 @@
+import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline
+from sklearn.svm import LinearSVC
+from sklearn.metrics import accuracy_score, classification_report
+
+# Load data
+df = pd.read_csv("text_data.csv")
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(df['text'], df['category'], test_size=0.2, random_state=42)
+
+# Create a pipeline for vectorizing text data and training a LinearSVC classifier
+text_clf = Pipeline([
+    ('tfidf', TfidfVectorizer()), 
+    ('clf', LinearSVC())
+])
+
+# Train the classifier on the vectorized text data
+text_clf.fit(X_train, y_train)
+
+# Predict the categories of the test data using the trained model
+y_pred = text_clf.predict(X_test)
+
+# Evaluate the accuracy and other metrics of the model
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print(classification_report(y_test, y_pred))
+
+
+X_train
+12                   myself F
+5          Hello my name is C
+8          I belong to Nanded
+2             I am from Jalna
+1          Hello my name is A
+13                   myself G
+4          Hello my name is B
+7     I belong to Aurangabad 
+10      my hometown is Nashik
+3            I am from Mumbai
+6          Hello my name is D
+
+X_test
+9       my hometown is Parbhani
+11                     myself E
+0     Hello my name is Niranjan
+
+y_train
+12    1
+5     1
+8     2
+2     2
+1     1
+13    1
+4     1
+7     2
+10    2
+3     2
+6     1
+
+y_test 
+9     2
+11    1
+0     1
+
+
+this has 100% accuracy over trained data 
