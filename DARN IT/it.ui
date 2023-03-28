@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>itWindow</class>
+ <widget class="QMainWindow" name="itWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DARN IT</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.png</normaloff>icon.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>3.000000000000000</double>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1300</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <widget class="QPushButton" name="poc_b">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>200</y>
+       <width>390</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>POC</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="dsa_b">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>530</y>
+       <width>390</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>DSA</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="m3_b">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>310</y>
+       <width>390</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>MATHS-3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="dbms_b">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>640</y>
+       <width>390</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>DBMS</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pcpf_b">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>420</y>
+       <width>390</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>PCPF</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="coa_b">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>640</y>
+       <width>390</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>COA</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="at_b">
+     <property name="geometry">
+      <rect>
+       <x>749</x>
+       <y>200</y>
+       <width>390</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>AT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="m4_b">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>530</y>
+       <width>390</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>MATHS-4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cn_b">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>420</y>
+       <width>390</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>CN</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="os_b">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>310</y>
+       <width>390</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>OS</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="l1">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>100</y>
+       <width>121</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>20</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Artifakt Element&quot;;
+background : transparent;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="text">
+      <string>Sem-3</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="l1_2">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>100</y>
+       <width>121</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>20</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Artifakt Element&quot;;
+background : transparent;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="text">
+      <string>Sem-4</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="bg">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1300</width>
+       <height>800</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>pictures/try2-dark-stripes-background-elegant-design-wallpapers_518299-1505.jpg</pixmap>
+     </property>
+    </widget>
+    <zorder>bg</zorder>
+    <zorder>poc_b</zorder>
+    <zorder>dsa_b</zorder>
+    <zorder>m3_b</zorder>
+    <zorder>dbms_b</zorder>
+    <zorder>pcpf_b</zorder>
+    <zorder>coa_b</zorder>
+    <zorder>at_b</zorder>
+    <zorder>m4_b</zorder>
+    <zorder>cn_b</zorder>
+    <zorder>os_b</zorder>
+    <zorder>l1</zorder>
+    <zorder>l1_2</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../pictures/source1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

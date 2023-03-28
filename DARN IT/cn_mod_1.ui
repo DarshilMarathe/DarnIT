@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1300</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>DARN IT</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>pictures/icon.png</normaloff>pictures/icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>20</y>
+      <width>660</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+    </property>
+    <property name="text">
+     <string>MODULE 1 :INTRODUCTION</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 14pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>BACK</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>1280</width>
+      <height>680</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1280</width>
+      <height>680</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background : transparent;</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1257</width>
+       <height>5018</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>5000</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background : transparent;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>50</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>100</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>150</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>200</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>250</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>300</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>350</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>400</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>450</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>500</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>560</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>620</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_15">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>670</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>720</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>770</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>830</y>
+           <width>1231</width>
+           <height>42</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Artifakt Element&quot;;
+background : transparent;</string>
+         </property>
+         <property name="text">
+          <string>MODULE 1 :INTRODUCTION</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="yt">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>20</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(234, 51, 34);
+color:rgb(255, 255, 255);
+font: 14pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 2px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px</string>
+    </property>
+    <property name="text">
+     <string>YouTube</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1300</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>pictures/try2-dark-stripes-background-elegant-design-wallpapers_518299-1505.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label_19</zorder>
+   <zorder>title</zorder>
+   <zorder>back</zorder>
+   <zorder>scrollArea</zorder>
+   <zorder>yt</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../pictures/source1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

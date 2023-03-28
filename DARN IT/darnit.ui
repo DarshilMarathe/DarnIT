@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>MS Sans Serif</family>
+    <pointsize>14</pointsize>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>DARN IT</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.png</normaloff>icon.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="f1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1300</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <widget class="QLabel" name="l1">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>420</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="text">
+      <string>Year :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon">
+     <property name="geometry">
+      <rect>
+       <x>830</x>
+       <y>80</y>
+       <width>381</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background :  transparent;
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="lineWidth">
+      <number>0</number>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>icon.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>3</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="l1_2">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>510</y>
+       <width>102</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;
+color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="text">
+      <string>Branch :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>520</y>
+       <width>401</width>
+       <height>104</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>56</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;
+color: rgb(255, 255, 255);
+font: 56pt &quot;Artifakt Element&quot;;</string>
+     </property>
+     <property name="text">
+      <string>DARN-IT</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="wel">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>80</y>
+       <width>511</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>36</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;
+color: rgb(255, 255, 255);
+font: 36pt &quot;Artifakt Element&quot;;</string>
+     </property>
+     <property name="text">
+      <string>WELCOME !!!</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="info">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>210</y>
+       <width>652</width>
+       <height>182</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;
+color: rgb(255, 255, 255);
+font: 13pt &quot;Artifakt Element&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DARN-IT is an engineering study app that helps students prepare for&lt;br/&gt;exams by sortng questions module-wise.With a simple and initutive &lt;br/&gt;interface, students can easily select the modules they need to study &lt;br/&gt;and focus on those specific area.The app also provides a feature to &lt;br/&gt;track progress and performance allowing students to identify area&lt;br/&gt;that need improvements. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb1">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>420</y>
+       <width>137</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(238, 244, 239);
+background-color: rgb(0, 85, 0);
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background : transparent;
+opacity: 1.8;
+border : outset ;
+border-width : 1px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+     <property name="duplicatesEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string extracomment="First Year">FE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string extracomment="Second Year">SE</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="cb2">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>510</y>
+       <width>137</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(238, 244, 239);
+background-color: rgb(0, 85, 0);
+font: 15pt &quot;MS Shell Dlg 2&quot;;
+background : transparent;
+opacity: 1.8;
+border : outset ;
+border-width : 1px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string extracomment="IT">IT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string extracomment="CS">CS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string extracomment="EXTC">EXTC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string extracomment="Chem">Chemical</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string extracomment="Mech">AIDS</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="phy1_b_7">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>600</y>
+       <width>291</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(191, 255, 191);
+color: rgb(0, 0, 0);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset;
+border-color: rgb(255, 255, 255);
+border-width : 3px;
+border-radius : 15px;
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>SUBMIT</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="bg">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1300</width>
+       <height>800</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>pictures/try2-dark-stripes-background-elegant-design-wallpapers_518299-1505.jpg</pixmap>
+     </property>
+    </widget>
+    <zorder>bg</zorder>
+    <zorder>l1</zorder>
+    <zorder>icon</zorder>
+    <zorder>l1_2</zorder>
+    <zorder>label_2</zorder>
+    <zorder>wel</zorder>
+    <zorder>info</zorder>
+    <zorder>cb1</zorder>
+    <zorder>cb2</zorder>
+    <zorder>phy1_b_7</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../pictures/source1.qrc"/>
+ </resources>
+ <connections/>
+</ui>
