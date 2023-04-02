@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>dsa.png</file>
+    <file>pcpf.png</file>
+    <file>poc.png</file>
+    <file>icon.png</file>
+    <file>back.png</file>
+    <file>os.png</file>
+    <file>A_black_image.jpg.webp</file>
+    <file>green.png</file>
+    <file>try2-dark-stripes-background-elegant-design-wallpapers_518299-1505.jpg</file>
+  </qresource>
+</RCC>

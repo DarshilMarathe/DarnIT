@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>answer_Dialog</class>
+ <widget class="QDialog" name="answer_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DARN IT-answers</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1280</width>
+     <height>781</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1280</width>
+     <height>680</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background : transparent;</string>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOn</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOn</enum>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>2218</width>
+      <height>2238</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="minimumSize">
+        <size>
+         <width>2200</width>
+         <height>2200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background : transparent;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="answer_l">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>150</y>
+          <width>1808</width>
+          <height>772</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+background : transparent;
+border : outset ;
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px</string>
+        </property>
+        <property name="text">
+         <string>1)Topology related
+Compare Bus and Star topology:
+1)	Definition: The answer should begin by defining bus and star topology.
+2)	Network Structure: The answer should compare the network structure of both topologies. 
+3)	Scalability: The answer should explain the scalability of both topologies. 
+4)	Fault Tolerance: The answer should discuss the fault tolerance of both topologies.
+5)	Cost: The answer should compare the cost of implementing both topologies. 
+
+
+Compare Ring and Star Topology:
+1)	Definition: The answer should begin by defining ring and star topology.
+2)	Network Structure: The answer should compare the network structure of both topologies.
+3)	Scalability: The answer should explain the scalability of both topologies.
+4)	Fault Tolerance: The answer should discuss the fault tolerance of both topologies.
+5)	Cost: The answer should compare the cost of implementing both topologies.
+
+Is there any relation between transmission media and topology:
+1)	Definition: The answer should begin by defining transmission media and topology.
+2)	Connection: The answer should discuss the connection between transmission media and topology.
+3)	Distance: The answer should also discuss the distance limitations of different transmission media and their impact on topology.
+4)	Performance: The answer should explain how the choice of transmission media and topology can impact the performance of the network.
+5)	Flexibility: Finally, the answer should discuss the flexibility of transmission media and topology in meeting the changing needs of the network.
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>1811</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+background : transparent;
+border : outset ;
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px</string>
+        </property>
+        <property name="text">
+         <string>Q1-Compare Bus and Star topology ?
+     -Compare Ring and Star topology ?
+     -Is there any relationship between transmission media and topology ?</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="bg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>pictures/try2-dark-stripes-background-elegant-design-wallpapers_518299-1505.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>bg</zorder>
+  <zorder>scrollArea</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
