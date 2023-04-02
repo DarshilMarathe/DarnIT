@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>MainWindow_fe</class>
+ <widget class="QMainWindow" name="MainWindow_fe">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -68,8 +68,11 @@
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>Physics-1</string>
@@ -98,8 +101,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>MATHS-1</string>
@@ -128,8 +134,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>Chemistry-1</string>
@@ -158,8 +167,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>BEE</string>
@@ -188,8 +200,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>Mechanics</string>
@@ -218,8 +233,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>Engineering Graphics</string>
@@ -248,8 +266,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>Physics-2</string>
@@ -278,8 +299,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>MATHS-2</string>
@@ -308,8 +332,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>C-Programming</string>
@@ -338,8 +365,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>Chemistry-2</string>
@@ -433,6 +463,31 @@ color: rgb(255, 255, 255);</string>
       <pixmap>pictures/try2-dark-stripes-background-elegant-design-wallpapers_518299-1505.jpg</pixmap>
      </property>
     </widget>
+    <widget class="QPushButton" name="back">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>151</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(0, 0, 0);
+color:rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>BACK</string>
+     </property>
+    </widget>
     <zorder>label</zorder>
     <zorder>phy1_b</zorder>
     <zorder>m1_b</zorder>
@@ -446,6 +501,7 @@ color: rgb(255, 255, 255);</string>
     <zorder>chem2_b</zorder>
     <zorder>l1</zorder>
     <zorder>l1_2</zorder>
+    <zorder>back</zorder>
    </widget>
   </widget>
  </widget>

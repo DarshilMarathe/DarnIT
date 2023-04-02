@@ -65,8 +65,11 @@
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>POC</string>
@@ -95,8 +98,10 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
+border-width : 1px;
 border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
 </string>
      </property>
      <property name="text">
@@ -126,8 +131,11 @@ border-color: rgb(255, 255, 255);
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>MATHS-3</string>
@@ -156,8 +164,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>DBMS</string>
@@ -186,8 +197,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>PCPF</string>
@@ -216,8 +230,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>COA</string>
@@ -246,8 +263,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>AT</string>
@@ -276,8 +296,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>MATHS-4</string>
@@ -306,8 +329,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>CN</string>
@@ -336,8 +362,11 @@ border-color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);
 font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
      </property>
      <property name="text">
       <string>OS</string>
@@ -431,6 +460,31 @@ color: rgb(255, 255, 255);</string>
       <pixmap>pictures/try2-dark-stripes-background-elegant-design-wallpapers_518299-1505.jpg</pixmap>
      </property>
     </widget>
+    <widget class="QPushButton" name="back">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>151</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(0, 0, 0);
+color:rgb(255, 255, 255);
+font: 16pt &quot;Artifakt Element&quot;;
+border : outset ;
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>BACK</string>
+     </property>
+    </widget>
     <zorder>bg</zorder>
     <zorder>poc_b</zorder>
     <zorder>dsa_b</zorder>
@@ -444,6 +498,7 @@ color: rgb(255, 255, 255);</string>
     <zorder>os_b</zorder>
     <zorder>l1</zorder>
     <zorder>l1_2</zorder>
+    <zorder>back</zorder>
    </widget>
   </widget>
  </widget>

@@ -56,19 +56,19 @@
     <property name="lineWidth">
      <number>2</number>
     </property>
-    <widget class="QLabel" name="l1">
+    <widget class="QLabel" name="year_l">
      <property name="geometry">
       <rect>
-       <x>250</x>
-       <y>420</y>
-       <width>71</width>
-       <height>31</height>
+       <x>150</x>
+       <y>220</y>
+       <width>81</width>
+       <height>38</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>Artifakt Element</family>
-       <pointsize>16</pointsize>
+       <pointsize>20</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
@@ -77,7 +77,7 @@
      <property name="styleSheet">
       <string notr="true">background : transparent;
 color: rgb(255, 255, 255);
-font: 16pt &quot;Artifakt Element&quot;;</string>
+font: 20pt &quot;Artifakt Element&quot;;</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -89,13 +89,13 @@ font: 16pt &quot;Artifakt Element&quot;;</string>
       <string>Year :</string>
      </property>
     </widget>
-    <widget class="QLabel" name="icon">
+    <widget class="QLabel" name="logo">
      <property name="geometry">
       <rect>
-       <x>830</x>
+       <x>700</x>
        <y>70</y>
-       <width>391</width>
-       <height>371</height>
+       <width>531</width>
+       <height>481</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -127,19 +127,19 @@ font: 16pt &quot;Artifakt Element&quot;;</string>
       <number>3</number>
      </property>
     </widget>
-    <widget class="QLabel" name="l1_2">
+    <widget class="QLabel" name="marks_l">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>510</y>
-       <width>102</width>
+       <x>150</x>
+       <y>320</y>
+       <width>121</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>Artifakt Element</family>
-       <pointsize>16</pointsize>
+       <pointsize>20</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
@@ -148,7 +148,7 @@ font: 16pt &quot;Artifakt Element&quot;;</string>
      <property name="styleSheet">
       <string notr="true">background : transparent;
 color: rgb(255, 255, 255);
-font: 16pt &quot;Artifakt Element&quot;;</string>
+font: 20pt &quot;Artifakt Element&quot;;</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -157,22 +157,22 @@ font: 16pt &quot;Artifakt Element&quot;;</string>
       <enum>QFrame::Plain</enum>
      </property>
      <property name="text">
-      <string>Branch :</string>
+      <string>Marks :</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_2">
+    <widget class="QLabel" name="darnit_l">
      <property name="geometry">
       <rect>
-       <x>820</x>
-       <y>520</y>
-       <width>421</width>
-       <height>121</height>
+       <x>700</x>
+       <y>590</y>
+       <width>531</width>
+       <height>151</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>Artifakt Element</family>
-       <pointsize>56</pointsize>
+       <pointsize>66</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
@@ -182,7 +182,7 @@ font: 16pt &quot;Artifakt Element&quot;;</string>
      <property name="styleSheet">
       <string notr="true">background : transparent;
 color: rgb(255, 255, 255);
-font: 56pt &quot;Artifakt Element&quot;;</string>
+font: 66pt &quot;Artifakt Element&quot;;</string>
      </property>
      <property name="text">
       <string>DARN-IT</string>
@@ -191,73 +191,13 @@ font: 56pt &quot;Artifakt Element&quot;;</string>
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="wel">
+    <widget class="QComboBox" name="year_cb">
      <property name="geometry">
       <rect>
-       <x>90</x>
-       <y>70</y>
-       <width>511</width>
-       <height>91</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Artifakt Element</family>
-       <pointsize>36</pointsize>
-       <weight>50</weight>
-       <italic>false</italic>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background : transparent;
-color: rgb(255, 255, 255);
-font: 36pt &quot;Artifakt Element&quot;;</string>
-     </property>
-     <property name="text">
-      <string>WELCOME !!!</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-    </widget>
-    <widget class="QLabel" name="info">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>180</y>
-       <width>652</width>
-       <height>182</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Artifakt Element</family>
-       <pointsize>13</pointsize>
-       <weight>50</weight>
-       <italic>false</italic>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background : transparent;
-color: rgb(255, 255, 255);
-font: 13pt &quot;Artifakt Element&quot;;</string>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DARN-IT is an engineering study app that helps students prepare for&lt;br/&gt;exams by sortng questions module-wise.With a simple and initutive &lt;br/&gt;interface, students can easily select the modules they need to study &lt;br/&gt;and focus on those specific area.The app also provides a feature to &lt;br/&gt;track progress and performance allowing students to identify area&lt;br/&gt;that need improvements. &lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-     </property>
-    </widget>
-    <widget class="QComboBox" name="cb1">
-     <property name="geometry">
-      <rect>
-       <x>420</x>
-       <y>420</y>
-       <width>137</width>
-       <height>34</height>
+       <x>390</x>
+       <y>210</y>
+       <width>181</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="autoFillBackground">
@@ -266,7 +206,7 @@ font: 13pt &quot;Artifakt Element&quot;;</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(238, 244, 239);
 background-color: rgb(0, 85, 0);
-font: 15pt &quot;MS Shell Dlg 2&quot;;
+font: 18pt &quot;MS Shell Dlg 2&quot;;
 background : transparent;
 opacity: 1.8;
 border : outset ;
@@ -284,22 +224,47 @@ border-color: rgb(255, 255, 255);</string>
      </property>
      <item>
       <property name="text">
-       <string extracomment="First Year">FE</string>
+       <string>2022</string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string extracomment="Second Year">SE</string>
+       <string>2019</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2018</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2017</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2016</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2015</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2014</string>
       </property>
      </item>
     </widget>
-    <widget class="QComboBox" name="cb2">
+    <widget class="QComboBox" name="marks_cb">
      <property name="geometry">
       <rect>
-       <x>420</x>
-       <y>510</y>
-       <width>137</width>
-       <height>34</height>
+       <x>390</x>
+       <y>310</y>
+       <width>181</width>
+       <height>51</height>
       </rect>
      </property>
      <property name="autoFillBackground">
@@ -308,7 +273,7 @@ border-color: rgb(255, 255, 255);</string>
      <property name="styleSheet">
       <string notr="true">color: rgb(238, 244, 239);
 background-color: rgb(0, 85, 0);
-font: 15pt &quot;MS Shell Dlg 2&quot;;
+font: 18pt &quot;MS Shell Dlg 2&quot;;
 background : transparent;
 opacity: 1.8;
 border : outset ;
@@ -317,35 +282,25 @@ border-color: rgb(255, 255, 255);</string>
      </property>
      <item>
       <property name="text">
-       <string extracomment="IT">IT</string>
+       <string>10 </string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string extracomment="CS">CS</string>
+       <string>05</string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string extracomment="EXTC">EXTC</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string extracomment="Chem">Chemical</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string extracomment="Mech">AIDS</string>
+       <string>03</string>
       </property>
      </item>
     </widget>
-    <widget class="QPushButton" name="phy1_b_7">
+    <widget class="QPushButton" name="submit">
      <property name="geometry">
       <rect>
-       <x>250</x>
-       <y>600</y>
+       <x>220</x>
+       <y>550</y>
        <width>291</width>
        <height>51</height>
       </rect>
@@ -394,16 +349,107 @@ border-radius : 15px;
       <pixmap>pictures/try2-dark-stripes-background-elegant-design-wallpapers_518299-1505.jpg</pixmap>
      </property>
     </widget>
+    <widget class="QComboBox" name="mod_no_cb">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>410</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(238, 244, 239);
+background-color: rgb(0, 85, 0);
+font: 18pt &quot;MS Shell Dlg 2&quot;;
+background : transparent;
+opacity: 1.8;
+border : outset ;
+border-width : 1px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>01</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>02</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>03</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>04</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>05</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>06</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>All</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="mod_no_l">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>420</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Artifakt Element</family>
+       <pointsize>20</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;
+color: rgb(255, 255, 255);
+font: 20pt &quot;Artifakt Element&quot;;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="text">
+      <string>Module no :</string>
+     </property>
+    </widget>
     <zorder>bg</zorder>
-    <zorder>l1</zorder>
-    <zorder>icon</zorder>
-    <zorder>l1_2</zorder>
-    <zorder>label_2</zorder>
-    <zorder>wel</zorder>
-    <zorder>info</zorder>
-    <zorder>cb1</zorder>
-    <zorder>cb2</zorder>
-    <zorder>phy1_b_7</zorder>
+    <zorder>year_l</zorder>
+    <zorder>logo</zorder>
+    <zorder>marks_l</zorder>
+    <zorder>darnit_l</zorder>
+    <zorder>year_cb</zorder>
+    <zorder>marks_cb</zorder>
+    <zorder>submit</zorder>
+    <zorder>mod_no_cb</zorder>
+    <zorder>mod_no_l</zorder>
    </widget>
   </widget>
  </widget>

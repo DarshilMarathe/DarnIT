@@ -60,10 +60,13 @@ background : transparent;</string>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(0, 0, 0);
 color: rgb(255, 255, 255);
-font: 14pt &quot;Artifakt Element&quot;;
+font: 16pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
-border-color: rgb(255, 255, 255);</string>
+border-width : 1px;
+border-color: rgb(255, 255, 255);
+border-radius : 15px;
+
+</string>
     </property>
     <property name="text">
      <string>BACK</string>
@@ -73,9 +76,9 @@ border-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>110</y>
+      <y>99</y>
       <width>1280</width>
-      <height>680</height>
+      <height>691</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -85,7 +88,11 @@ border-color: rgb(255, 255, 255);</string>
      </size>
     </property>
     <property name="styleSheet">
-     <string notr="true">background : transparent;</string>
+     <string notr="true">background : transparent;
+
+
+
+</string>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOn</enum>
@@ -499,7 +506,7 @@ background : transparent;</string>
 color:rgb(255, 255, 255);
 font: 14pt &quot;Artifakt Element&quot;;
 border : outset ;
-border-width : 2px;
+border-width : 1px;
 border-color: rgb(255, 255, 255);
 border-radius : 15px</string>
     </property>
