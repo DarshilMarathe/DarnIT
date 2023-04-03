@@ -1,1 +1,0 @@
-print(len("What do you mean by routing , explain any routing protocol in detail  M-10.0"))
